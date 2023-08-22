@@ -1,0 +1,46 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.bg {
+  border: 1px solid gray;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgCard {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 400px;
+  width: 400px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  background-color: white;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.innerCard {
+  text-align: center;
+}
+
+.pEvenOrOdd {
+  color: #334155;
+}
+
+.para {
+  color: #1e293b;
+}
